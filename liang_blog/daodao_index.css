@@ -1,0 +1,238 @@
+body,p,ul,li,h1,h2,h3,h4,h5,h6{
+         margin:0px;
+		 padding:0px;
+}
+#header,#footer{
+         background:url(liang_blog_image/banner.jpg) no-repeat fixed;
+		 background-size:cover;
+}
+#nav{
+         height:50px;
+         background:rgba(0,0,0,0.6)
+}
+#nav>.user img{
+         border-radius:50%;
+		 margin-left:40px;
+		 vertical-align:top;
+		 margin-top:5px;
+}
+#nav>.user h2{
+         display:inline-block;
+}
+#nav>.user h2 a{
+         color:#fff;
+		 text-decoration:none;
+		 line-height:50px;
+}
+#nav>.user>ul{
+         list-style:none;
+		 float:right;
+}
+#nav>.user>ul>li{
+         display:inline-block;
+		 margin-right:15px;
+}
+#nav>.user>ul>li>a{
+         color:#fff;
+		 line-height:50px;
+		 text-decoration:none;
+}
+#nav>.user>ul>li>a:hover{
+          color:#b8860b;
+}
+#nav>.user>ul>li>a:active{
+          color:#19f;
+}
+#banner{
+         height:550px;
+		 text-align:center;
+		 background:rgba(0,0,0,0.4);
+		 color:#fff;
+		 padding-top:150px;
+		 font-size:25px;
+}
+#banner h1{
+         border-top:3px solid #fff;
+		 border-bottom:3px solid #fff;
+		 width:200px;
+		 margin:0px auto;
+}
+#banner p{
+         width:350px;
+		 margin:0px auto;
+		 margin-top:60px;
+		 margin-bottom:60px;
+}
+#banner input{
+         width:230px;
+		 height:70px;
+		 font-size:40px;
+		 color:#fff;
+		 background:#f00;
+		 border:none;
+		 margin-bottom:130px;
+}
+#content_1{
+         background:#0db27f;
+		 padding-top:45px
+		 padding-bottom:60px;
+		 color:#fff;
+		 text-align:center;
+
+}
+#content_1 h2{
+         font-size:35px;
+		 padding-top:25px
+}
+#content_1 h3{
+         width:500px;
+		 margin:0px auto;
+		 font-size:33px;
+		 padding-bottom:20px;
+		 border-bottom:2px solid #299674;
+}
+#content_1 p{
+         width:650px;
+		 margin:0px auto;
+		 font-size:20px;
+		 margin-top:5px;
+}
+#content_1 ul{
+         list-style:none;
+}
+#content_1 ul li{
+         width:100px;
+		 height:100px;
+		 border-radius:50%;
+		 border:2px solid #299674;
+		 display:inline-block;
+		 margin:80px 40px ;
+}
+#content_2{
+         background:#262a35;
+		 color:#fff;
+		 text-align:center;
+		 font-size:0px;
+}
+#content_2 .picture{
+         width:40%;
+}
+#content_2 .picture img{
+         width:100%;
+}
+#content_2 .ms{
+         width:60%;
+		 padding-top:30px;
+}
+#content_2 .ms h2{
+         font-size:30px;
+}
+#content_2 .ms h3{
+         font-size:28px;
+		 margin:7px auto 28px;
+}
+#content_2 .ms p{
+         width:85%;
+		 margin:0px auto;
+		 font-size:20px;
+}
+#content_2 .content_lf div{
+         float:left;
+}
+#content_2 .content_lf,#content_2 .content_rf{
+         overflow:hidden;
+}
+#content_2 .content_rf div{
+         float:right;
+}
+#content_3{
+         background:#534e93;
+		 color:#fff;
+		 text-align:center;
+		 padding-top:30px;
+}
+#content_3 h2{
+         font-size:30px;
+}
+#content_3 p{
+         width:80%;
+		 margin:0px auto;
+		 font-size:24px;
+		 margin-top:30px;
+}
+#content_3 ul{
+         list-style:none;
+		 text-align:left;
+		 width:60%;
+		 margin:0px auto;
+		 overflow:hidden;
+}
+#content_3 ul li{
+         display:inline-block;
+		 width:50%;
+		 float:left;
+}
+#content_3 ul li h3{
+          font-size:18px;
+}
+#content_3 ul li p{
+          font-size:15px;
+		  width:100%;
+		  margin:0px;
+}
+#footer{
+          color:#fff;
+		  height:700px;
+		  text-align:center;
+}
+#footer_1{
+          height:400px;
+		  background:rgbe(0,0,0,0.4);
+}
+#footer_1 div{
+           width:50%;
+		   float:left;
+}
+#footer_1 .footer_lf h2{
+           padding-top:150px;
+		   padding-bottom:30px;
+}
+#footer_1 .footer_rf input{
+           width:230px;
+		   height:70px;
+		   font-size:40px;
+		   color:#fff;
+		   background:red;
+		   border:none;
+		   margin-top:85px;
+}
+#footer_1 .footer_rf input.b2{
+           background:#999;
+}
+#footer_2{
+           background:rgba(0,0,0,0.6);
+		   height:300px;
+}
+#footer_2 ul{
+           list-style:none;
+		   padding-top:100px;
+}
+#footer_2 ul li{
+           display:inline-block;
+		   width:70px;
+		   height:70px;
+		   background:#999;
+		   margin-left:70px;
+}
+#footer_2 ul li.li_1{
+           margin-left:0px;
+}
+#content_3 ul li.l1{
+           background:rgba(0,0,0,0.12);
+}
+#content_3 ul li.l2{
+           background:rgba(0,0,0,0.2);
+}
+#content_2 .content_rf{
+            background:rgba(255,255,255,0.1);
+}
